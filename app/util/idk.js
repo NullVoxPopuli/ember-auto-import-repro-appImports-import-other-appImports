@@ -1,4 +1,4 @@
-import Foo from '../components/foo.js';
+import Foo from '../components/foo';
 
 console.log(Foo);
 

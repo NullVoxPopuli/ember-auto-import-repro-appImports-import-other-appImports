@@ -8,6 +8,9 @@ module.exports = function (defaults) {
     autoImport: {
       allowAppImports: ['util/*', 'components/*'],
     },
+    babel: {
+      plugins: [require.resolve('ember-auto-import/babel-plugin')],
+    },
   });
 
   return app.toTree();
